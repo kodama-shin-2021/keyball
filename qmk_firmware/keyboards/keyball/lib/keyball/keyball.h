@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #ifndef KEYBALL_SCROLL_DIV_DEFAULT
 // #    define KEYBALL_SCROLL_DIV_DEFAULT 4 // 4: 1/8 (1/2^(n-1))
-#    define KEYBALL_SCROLL_DIV_DEFAULT 8 // 4: 1/8 (1/2^(n-1))
+#    define KEYBALL_SCROLL_DIV_DEFAULT 5 // 4: 1/8 (1/2^(n-1))
 #endif
 
 #ifndef KEYBALL_REPORTMOUSE_INTERVAL
