@@ -45,8 +45,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define KEYBALL_SCROLLSNAP_RESET_TIMER 100
 #endif
 
+// shinkoda scroll threshold
 #ifndef KEYBALL_SCROLLSNAP_TENSION_THRESHOLD
-#    define KEYBALL_SCROLLSNAP_TENSION_THRESHOLD 12
+#    define KEYBALL_SCROLLSNAP_TENSION_THRESHOLD 0
 #endif
 
 /// Specify SROM ID to be uploaded PMW3360DW (optical sensor).  It will be
