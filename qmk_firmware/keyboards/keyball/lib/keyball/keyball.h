@@ -21,11 +21,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Configurations
 
 #ifndef KEYBALL_CPI_DEFAULT
-#    define KEYBALL_CPI_DEFAULT 500
+#    define KEYBALL_CPI_DEFAULT 400
+// #    define KEYBALL_CPI_DEFAULT 500
 #endif
 
 #ifndef KEYBALL_SCROLL_DIV_DEFAULT
-#    define KEYBALL_SCROLL_DIV_DEFAULT 4 // 4: 1/8 (1/2^(n-1))
+// #    define KEYBALL_SCROLL_DIV_DEFAULT 4 // 4: 1/8 (1/2^(n-1))
+#    define KEYBALL_SCROLL_DIV_DEFAULT 2 // 4: 1/8 (1/2^(n-1))
 #endif
 
 #ifndef KEYBALL_REPORTMOUSE_INTERVAL
@@ -47,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // shinkoda scroll threshold
 #ifndef KEYBALL_SCROLLSNAP_TENSION_THRESHOLD
-#    define KEYBALL_SCROLLSNAP_TENSION_THRESHOLD 0
+#    define KEYBALL_SCROLLSNAP_TENSION_THRESHOLD 1
 #endif
 
 /// Specify SROM ID to be uploaded PMW3360DW (optical sensor).  It will be
